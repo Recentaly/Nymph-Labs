@@ -1,0 +1,175 @@
+@font-face { font-family: Product-Sans; src: url('res/font/psf.ttf'); } 
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes slideltr {
+    0% {margin-left: -200cm;}
+    100% {margin-left: 0cm;}
+}
+
+.fade-in {
+    animation: fadeIn 3s;
+}
+
+.slide-ltr {
+    animation: slideltr 2s;
+}
+
+body {
+    font-family: Product-Sans;
+    background-color: #ffcc03;
+    text-align-last: baseline;
+}
+
+.jobs {
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+.contact {
+    position: absolute;
+    left: 1225px;
+    top: 50px;
+}
+
+.about {
+    position: absolute;
+    left: 1500px;
+    top: 50px;
+}
+
+.logger {
+    position: absolute;
+    left: 1725px;
+    top: 50px;
+}
+
+
+.jobs:hover {
+    text-decoration: underline #000;
+}
+
+.contact:hover {
+    text-decoration: underline #000;
+}
+
+.about:hover {
+    text-decoration: underline #000;
+}
+
+.logger:hover {
+    text-decoration: underline #000;
+}
+
+.news1 {
+    padding-left: 1cm;
+    margin-top: 2cm;
+    animation: slideltr 3s;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000;
+    width: 200px;
+    padding-right: 1cm;
+    display: inline-block;
+}
+
+.news2 {
+    display: inline-block;
+    position: relative;
+    animation: slideltr 3.5s;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    padding-right: 1cm;
+    margin-top: 2cm;
+    padding-left: 1cm;
+    left: 3.15cm;
+}
+
+.news3 {
+    display: inline-block;
+    position: relative;
+    animation: slideltr 4s;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    padding-right: 1cm;
+    margin-top: 2cm;
+    padding-left: 1cm;
+    left: 6.5cm;
+}
+
+.news4 {
+    display: inline-block;
+    position: relative;
+    animation: slideltr 4.5s;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    padding-right: 1cm;
+    margin-top: 2cm;
+    padding-left: 1cm;
+    left: 9.75cm;
+}
+
+.news5 {
+    display: inline-block;
+    position: relative;
+    animation: slideltr 5s;
+    border-style: solid;
+    border-width: 3px;
+    width: 200px;
+    padding-right: 1cm;
+    margin-top: 2cm;
+    padding-left: 1cm;
+    left: 12.75cm;
+}
+
+#jobs {
+    display: inline-block;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-size: 24px;
+    left: 0cm;
+}
+
+#apply_button {
+    text-align: center;
+    text-decoration: underline #000;
+}
+
+#apply_button:hover {
+    text-decoration: underline red;
+    color: red;
+}
+
+#summary {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    border-style: solid;
+    border-color: #000;
+    border-width: 3px;
+    width: 900px;
+    display: inline-block;
+    left: 1cm;
+}
+
+#contact_submit {
+    text-align: center;
+    left: -1cm;
+    color: #000;
+    text-decoration: underline #000
+}
+
+#contact_submit:hover {
+    color: red;
+    text-decoration: underline red;
+}
