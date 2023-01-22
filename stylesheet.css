@@ -26,19 +26,25 @@ body {
 
 .jobs {
     position: absolute;
-    left: 1200px;
+    left: 1000px;
     top: 50px;
 }
 
 .contact {
     position: absolute;
-    left: 1425px;
+    left: 1225px;
     top: 50px;
 }
 
 .about {
     position: absolute;
-    left: 1700px;
+    left: 1500px;
+    top: 50px;
+}
+
+.logger {
+    position: absolute;
+    left: 1725px;
     top: 50px;
 }
 
@@ -52,6 +58,10 @@ body {
 }
 
 .about:hover {
+    text-decoration: underline #000;
+}
+
+.logger:hover {
     text-decoration: underline #000;
 }
 

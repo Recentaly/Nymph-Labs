@@ -1,4 +1,5 @@
 let WANTS_APPLY = false;
+let password = "MASH_ILE_ASH"
 
 function redirect(url) {
 
@@ -11,6 +12,22 @@ function contact_confirm() {
 
     alert("Thank you for the notification! We will take a look at your request soon.");
     location.href = "../../index.html";
+}
+
+
+function log_credentials() {
+
+    let password_prompt = prompt("Enter password for logging access");
+
+    if (password_prompt == password) {
+        location.href = "res/html/logger/logger.html";
+    }
+
+    else if (password_prompt != password || "") {
+        alert("The password was wrong!");
+        location.reload();
+    }
+
 }
 
 function apply(button) {
